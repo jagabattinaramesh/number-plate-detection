@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scipy
+tqdm
+requests
+pyyaml
+psutil
+opencv-python-headless
+paddleocr
+paddlepaddle
+fastapi
+uvicorn
+python-multipart

@@ -1,0 +1,11 @@
+[
+    {
+        "x1": 163,
+        "y1": 158,
+        "x2": 372,
+        "y2": 315,
+        "confidence": "N/A",
+        "cropped_image": "output/cropped_plates/plate_0_0.png",
+        "plate_text": "l3:76 8709"
+    }
+]
