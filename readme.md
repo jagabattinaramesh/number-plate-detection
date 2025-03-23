@@ -29,7 +29,7 @@ You can find the Jupyter Notebook for merging these data sets [here](src/code_fo
 </div>
 
 
-### Train YOLO model
+## Train YOLO model
 ```bash
 # Inside VM
 # Build and Run the Docker Container
@@ -49,4 +49,4 @@ python ultralytics/cfg/train.py \
 # Retrieve the Best Model
 /runs/detect/train/weights/best.pt
 ```
-
+## 
