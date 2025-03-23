@@ -25,7 +25,7 @@ Here to detect the number plate we have used YOLO object detection model and to 
 | 3 | Roboflow |  8823 | [Vehicle Registration Plates](https://universe.roboflow.com/augmented-startups/vehicle-registration-plates-trudk/dataset/1) |
 
 ### Script for merging the data
-You can find the Jupyter Notebook for merging [here](src/code_for_merging.ipynb).
+You can find the Jupyter Notebook for merging these data sets [here](src/code_for_merging.ipynb).
 </div>
 
 
