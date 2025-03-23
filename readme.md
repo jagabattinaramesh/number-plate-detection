@@ -26,7 +26,7 @@ Here to detect the number plate we have used YOLO object detection model and to 
 
 ### Script for merging the data
 You can find the Jupyter Notebook for merging these data sets [here](src/code_for_merging.ipynb).
-</div>
+
 
 
 ## Train YOLO model
@@ -49,4 +49,19 @@ python ultralytics/cfg/train.py \
 # Retrieve the Best Model
 /runs/detect/train/weights/best.pt
 ```
-## 
+## Executing Detection & OCR  models
+Build the docker image using [Dockerfile](/Dockerfile).
+By default it installs dependencies present in [requirements file](/requirements.txt) and executes YOLO and OCR models.
+
+### Building docker
+```bash
+docker build -t number-plate-api .
+```
+### Run the docker and deploy using FastAPI
+```bash
+docker run --rm -p 8000:8000 -v $(pwd)/output:/app/output number-plate-api
+```
+### Check the deployed model in any browser
+http://127.0.0.1:8000/docs
+
+</div>
