@@ -33,6 +33,7 @@ You can find the Jupyter Notebook for merging these data sets [here](src/code_fo
 ```bash
 # Inside VM
 # Build and Run the Docker Container
+cd ultralytics
 
 docker build -t ultralytics-yolo -f docker/Dockerfile .
 
